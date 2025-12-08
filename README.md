@@ -8,10 +8,15 @@ The app is deployed using Streamlit, allowing users to enter any news text and g
 🚀 Features
 
 ✔ Machine Learning model (Logistic Regression) trained on Kaggle’s fake-news dataset
+
 ✔ TF-IDF Vectorizer for text feature extraction
+
 ✔ Clean and scalable Streamlit web app
+
 ✔ Real-time prediction of True or Fake news
+
 ✔ Preprocessing pipeline: stopwords removal, punctuation cleaning, tokenization
+
 ✔ Model saved using joblib for deployment
 
 🌐 Live Demo (Streamlit Cloud)
@@ -74,13 +79,21 @@ Output:
 ✖ Fake News
 
 A Logistic Regression model trained on true.csv and fake.csv datasets performs the predictions.
+
 💡 Challenges & Solutions
 🔸 Problem: Model predicted True CSV correctly but new real news incorrectly
+
 Cause: TF-IDF vocabulary mismatch and overfitting.
 Fix:
+
 Added n-grams
+
 Improved preprocessing
+
 Merged title + text
+
 Cleaned input before prediction
+
 Ensured same vectorizer is used during training and prediction
+
 
