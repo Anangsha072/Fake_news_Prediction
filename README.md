@@ -65,6 +65,7 @@ A Logistic Regression classifier was trained on the TF-IDF vectors.
 Saved as:
 
 lr_model.jb
+
 🧪 Example Usage (Streamlit App)
 
 User enters a news article text
@@ -77,6 +78,9 @@ Output:
 
 ✔ Real News
 ✖ Fake News
+
+![Uploading image.png…]()
+
 
 A Logistic Regression model trained on true.csv and fake.csv datasets performs the predictions.
 
@@ -95,5 +99,6 @@ Merged title + text
 Cleaned input before prediction
 
 Ensured same vectorizer is used during training and prediction
+
 
 
