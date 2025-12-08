@@ -79,7 +79,8 @@ Output:
 ✔ Real News
 ✖ Fake News
 
-![Uploading image.png…]()
+<img width="785" height="411" alt="image" src="https://github.com/user-attachments/assets/26646828-40df-4803-8b47-79cdef263f54" />
+
 
 
 A Logistic Regression model trained on true.csv and fake.csv datasets performs the predictions.
@@ -99,6 +100,7 @@ Merged title + text
 Cleaned input before prediction
 
 Ensured same vectorizer is used during training and prediction
+
 
 
 
